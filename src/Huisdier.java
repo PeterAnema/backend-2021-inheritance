@@ -1,4 +1,4 @@
-public abstract class Huisdier {
+public abstract class Huisdier implements KanRennen, KanEten {
 
     // attributen
     String naam;

@@ -1,4 +1,4 @@
-public class Kat extends Huisdier {
+public class Kat extends Huisdier implements KanSpinnen {
 
     // attributen
     String vachtType;
@@ -27,5 +27,20 @@ public class Kat extends Huisdier {
 
     public String maakGeluid() {
         return "Miauw";
+    }
+
+    @Override
+    public String spin() {
+        return "Prrrrrr";
+    }
+
+    @Override
+    public void ren(int snelheid) {
+
+    }
+
+    @Override
+    public void eet(String voedsel) {
+
     }
 }

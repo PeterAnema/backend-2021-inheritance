@@ -34,4 +34,14 @@ public class Hond extends Huisdier {
     public String maakGeluid() {
         return "Blaf blaf";
     }
+
+    @Override
+    public void ren(int snelheid) {
+
+    }
+
+    @Override
+    public void eet(String voedsel) {
+
+    }
 }
